@@ -1,0 +1,19 @@
+#ax{
+    width: 85px;
+    height: 80px;
+    padding-bottom: 10px;
+}
+.link{
+    text-decoration: none;
+    color: unset;
+}
+#container{
+    border-bottom: ridge #228b22;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: white;
+}
+.create{
+    width: 200px;
+}
+
