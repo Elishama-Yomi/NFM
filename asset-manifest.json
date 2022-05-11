@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/nature'sfriendlymart/static/css/main.c6ad6378.css",
-    "main.js": "/nature'sfriendlymart/static/js/main.1d83f7b9.js",
-    "static/media/logo.png": "/nature'sfriendlymart/static/media/logo.66b6192b4e9d86fb0514.png",
-    "index.html": "/nature'sfriendlymart/index.html",
-    "main.c6ad6378.css.map": "/nature'sfriendlymart/static/css/main.c6ad6378.css.map",
-    "main.1d83f7b9.js.map": "/nature'sfriendlymart/static/js/main.1d83f7b9.js.map"
+    "main.css": "/NFM/static/css/main.c6ad6378.css",
+    "main.js": "/NFM/static/js/main.e19b8350.js",
+    "static/media/logo.png": "/NFM/static/media/logo.66b6192b4e9d86fb0514.png",
+    "index.html": "/NFM/index.html",
+    "main.c6ad6378.css.map": "/NFM/static/css/main.c6ad6378.css.map",
+    "main.e19b8350.js.map": "/NFM/static/js/main.e19b8350.js.map"
   },
   "entrypoints": [
     "static/css/main.c6ad6378.css",
-    "static/js/main.1d83f7b9.js"
+    "static/js/main.e19b8350.js"
   ]
 }
