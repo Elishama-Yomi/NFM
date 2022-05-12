@@ -101,8 +101,8 @@ button.badge {
 }
 .xy{
   background-color: #efddc7;
-  padding-left: 85px;
-  margin-left: 15px
+  padding-left: 16px;
+  margin-left: 8px
 }
 .zee{
   background-color: #6e2f15;
@@ -118,5 +118,5 @@ button.badge {
   font-weight: bold;
 }
 .nfm{
- font-size: 37px;
+ font-size: 27px;
 }

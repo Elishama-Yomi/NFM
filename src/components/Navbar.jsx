@@ -26,21 +26,20 @@ const Left = styled.div`
 `;
 
 const Home = styled.div`
-  flex: 0.5;
+  flex: 1;
   display: flex;
   align-items: center;
 `;
 const Hom = styled.div`
-  flex: 1.5;
+  flex: 2;
   display: flex;
   align-items: right;
-  padding-left: 50px;
+  padding-left: 10px;
 `;
 const Ho = styled.div`
-  flex: 1;
+  flex: 2;
   display: flex;
   align-items: right;
-  padding-right: 50px
 `;
 
 const Logo = styled.div`
@@ -53,25 +52,26 @@ const Logo = styled.div`
 `;
 
 const Center = styled.div`
-  flex: 5;
+  flex: 3;
   text-align: center;
 `;
 
 const Nfm = styled.h1`
   font-weight: bold;
   color: brown;
-  ${mobile({ fontSize: "24px" })}
+  ${mobile({ fontSize: "21px" })}
 `;
 const Right = styled.div`
-  flex: 1.5;
+  flex: 2;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  margin-right: 0px
+  // justify-content: flex-end;
   ${mobile({ flex: 2, justifyContent: "center" })}
 `;
 
 const MenuItem = styled.div`
-  font-size: 18px;
+  font-size: 16px;
   cursor: pointer;
   margin-left: 25px;
   font-weight: bold;
@@ -96,7 +96,7 @@ const Navbar = () => {
           <Nfm className="nfm">NATURE'S FRIENDLY MART</Nfm>
         </Center>
         <Ho>
-        <Link to="/pickup" className="link"><MenuItem>WASTE PICKUP</MenuItem></Link>
+        <Link to="/pickup" className="link wast"><MenuItem>WASTE PICKUP</MenuItem></Link>
         </Ho>
         <Right>
          <Link to="/register" className="link"><MenuItem>SIGN UP</MenuItem></Link>
